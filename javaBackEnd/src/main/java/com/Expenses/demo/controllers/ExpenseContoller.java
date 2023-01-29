@@ -29,6 +29,7 @@ public class ExpenseContoller {
     @ResponseBody
     public ResponseEntity<String> addExpense(@RequestBody Expense expense) {
         System.out.println("Using addExpense function..."); // print to backend
+
         Expense expenseRes = expenseService.addExpense(expense);
 
         System.out.println(expenseRes);
