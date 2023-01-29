@@ -1,5 +1,5 @@
 # My-Expenses
-Expenses system - Java Spring + TypeScript
+Expenses system - Java Spring + TypeScript & React
 Loved the backend & frontend sides
 
 Simple expenses system + year filter to manage your expenses
