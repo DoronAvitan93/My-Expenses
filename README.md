@@ -2,6 +2,8 @@
 Expenses system - Java Spring + TypeScript & React <br/>
 Loved the backend & frontend sides
 
+Using clearDB for DataBase, Using firebase and heroku to deploy.
+
 Simple expenses system + year filter to manage your expenses
 ------------------
 
@@ -26,6 +28,3 @@ E-mail & Password checking with the DB.<br/>
 Checking for invalid inputs or empty inputs.<br/>
 
 ---------
-
-Using clearDB for DataBase,
-Using firebase and heroku to deploy.
