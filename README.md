@@ -11,10 +11,10 @@ https://doron-expenses.web.app/
 --------
 
 Register as user: <br/>
-add expenses<br/>
-see your expenses<br/>
-filter expenses<br/>
-delete expenses<br/>
+Add expenses,<br/>
+See your expenses,<br/>
+Filter expenses,<br/>
+Delete expenses.<br/>
 
 --------
 
