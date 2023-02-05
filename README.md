@@ -10,7 +10,6 @@ https://doron-expenses.web.app/
 
 --------
 
-Register as user: <br/>
 Add expenses,<br/>
 See your expenses,<br/>
 Filter expenses,<br/>
@@ -18,7 +17,7 @@ Delete expenses.<br/>
 
 --------
 
-Register:<br/>
+Register Function:<br/>
 Cant use an already registered E-mail,<br/>
 Checking for invalid inputs or empty inputs.<br/>
 
