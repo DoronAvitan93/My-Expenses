@@ -25,7 +25,7 @@ Login:<br/>
 E-mail & Password checking with the DB.<br/>
 Checking for invalid inputs or empty inputs.<br/>
 
---
+---------
 
 Using clearDB for DataBase,
 Using firebase and heroku to deploy.
