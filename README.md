@@ -11,7 +11,7 @@ To test the web-app: <br/>
 https://doron-expenses.web.app/
 
 --------
-
+Functions: <br/>
 Add expenses,<br/>
 See your expenses,<br/>
 Filter expenses,<br/>
