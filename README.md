@@ -12,6 +12,8 @@ https://doron-expenses.web.app/
 
 --------
 Functions: <br/>
+Register, <br/>
+Login, <br/>
 Add expenses,<br/>
 See your expenses,<br/>
 Filter expenses,<br/>
