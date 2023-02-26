@@ -1,24 +1,33 @@
 # My-Expenses
-Expenses system - Java Spring + TypeScript
+Expenses system - Java Spring + TypeScript & React <br/>
 Loved the backend & frontend sides
 
+Using clearDB for DataBase, Using firebase and heroku to deploy.
+
 Simple expenses system + year filter to manage your expenses
+------------------
 
 To test the web-app: <br/>
 https://doron-expenses.web.app/
 
-Register as user: <br/>
-add expenses<br/>
-see your expenses<br/>
-filter expenses<br/>
-delete expenses<br/>
+--------
+Functions: <br/>
+--------
+Register, <br/>
+Login, <br/>
+Add expenses,<br/>
+See your expenses,<br/>
+Filter expenses,<br/>
+Delete expenses.<br/>
 
-Register:<br/>
-cant use an already registered E-mail,<br/>
-checking for invalid inputs or empty inputs.<br/>
+--------
+
+Register Function:<br/>
+Cant use an already registered E-mail,<br/>
+Checking for invalid inputs or empty inputs.<br/>
 
 Login:<br/>
 E-mail & Password checking with the DB.<br/>
-checking for invalid inputs or empty inputs.<br/>
+Checking for invalid inputs or empty inputs.<br/>
 
-using clearDB with firebase and heroku
+---------
