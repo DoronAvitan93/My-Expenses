@@ -65,6 +65,12 @@ const ExpenseForm = (props: Props) => {
 
         const responseFromDB = await response.text();
         console.log(responseFromDB)
+
+        //restart values
+        titleRef.current.value = '';
+        priceRef.current.value = '';
+        dateRef.current.value = '';
+
         props.getExpenses()
     }
 

@@ -44,18 +44,19 @@ const Register: React.FC = () => {
             </div>
 
             <div className='new-expense'>
-                <h1> Please Register</h1>
-                {!isRegister && <button onClick={isRegisterHandler}>Register</button>}
-                {isRegister && <RegisterForm onCancel={onCancelIsRegister} />}
-
-            </div>
-
-            <div className='new-expense'>
                 <h1>Log-in</h1>
                 {!isLogging && <button onClick={isLoggingHandler}>Login</button>}
                 {isLogging && <LoginForm onCancel={onCancelIsLogin} />}
 
             </div>
+
+            <div className='new-expense'>
+                <h1>Register</h1>
+                {!isRegister && <button onClick={isRegisterHandler}>Register</button>}
+                {isRegister && <RegisterForm onCancel={onCancelIsRegister} />}
+
+            </div>
+
 
             <div>
                 <img className='logo-react' width='60px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React logo" />
