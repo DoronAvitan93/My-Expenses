@@ -1,9 +1,9 @@
 # My-Expenses
 Built with Java spring and ReactJS + Typescript Using SQL clearDB(from heroku) for Databse, Using firebase and heroku to deploy.
 
-Using clearDB for DataBase, Using firebase and heroku to deploy.
+Using clearDB (from heroku) for DataBase, Using firebase and heroku to deploy.
 
-Simple expenses system + year filter to manage your expenses
+Simple expenses system + year filter to manage your expenses.
 ------------------
 
 To test the web-app: <br/>
