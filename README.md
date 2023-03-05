@@ -1,5 +1,5 @@
 # My-Expenses
-Expenses system - Java Spring + TypeScript & React <br/>
+Expenses system built with Java Spring + TypeScript & React <br/>
 Loved the backend & frontend sides
 
 Using clearDB for DataBase, Using firebase and heroku to deploy.
