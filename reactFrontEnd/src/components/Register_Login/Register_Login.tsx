@@ -1,6 +1,7 @@
 import { useState } from "react";
 import RegisterForm from "./RegisterForm";
 import LoginForm from "./LoginForm";
+import GuestLogin from "./GuestLogin";
 
 const Register: React.FC = () => {
 
@@ -38,7 +39,6 @@ const Register: React.FC = () => {
 
     return (
         <>
-
             <div className='new-expense'>
                 <h1>My Expenses</h1>
             </div>
@@ -47,16 +47,16 @@ const Register: React.FC = () => {
                 <h1>Log-in</h1>
                 {!isLogging && <button onClick={isLoggingHandler}>Login</button>}
                 {isLogging && <LoginForm onCancel={onCancelIsLogin} />}
-
             </div>
 
             <div className='new-expense'>
                 <h1>Register</h1>
-                {!isRegister && <button onClick={isRegisterHandler}>Register</button>}
+                {!isRegister && <><button onClick={isRegisterHandler}>Register</button>
+                    <br />
+                    <GuestLogin />
+                </>}
                 {isRegister && <RegisterForm onCancel={onCancelIsRegister} />}
-
             </div>
-
 
             <div>
                 <img className='logo-react' width='60px' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React logo" />

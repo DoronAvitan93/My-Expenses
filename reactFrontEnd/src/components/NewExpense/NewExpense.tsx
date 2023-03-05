@@ -1,4 +1,5 @@
-import  { useState } from 'react'
+import { useState } from 'react'
+import Logout from '../Register_Login/Logout'
 import ExpenseForm from './ExpenseForm'
 import './NewExpense.css'
 
@@ -24,7 +25,9 @@ const NewExpense = (props: Props) => {
     return (
         <div className='new-expense'>
             {isEditing && <ExpenseForm getExpenses={props.getExpenses} onCancel={onCancelEditing} />}
-            {!isEditing && <button onClick={issEditingHandler}>Add New Expense</button>}
+            {!isEditing && <><button onClick={issEditingHandler}>Add New Expense</button>
+                <Logout />
+            </>}
         </div>
     )
 }

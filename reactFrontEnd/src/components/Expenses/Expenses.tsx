@@ -78,6 +78,7 @@ const Expenses: React.FC<Props> = () => {
 
     return (
         <Fragment>
+            
             <NewExpense getExpenses={getExpensesHandler} />
 
             {/* year filter selection */}
@@ -86,7 +87,7 @@ const Expenses: React.FC<Props> = () => {
                     <div className='expenses-filter__control'>
                         <label>Filter by year</label>
                         <select onChange={onYearSelect}>
-                            <option selected hidden>Year</option>
+                            <option hidden>Year</option>
                             <option value=''>All</option>
                             <option value='2023'>2023</option>
                             <option value='2022'>2022</option>
@@ -120,36 +121,3 @@ const Expenses: React.FC<Props> = () => {
     )
 }
 export default Expenses
-
-
-
-
-
-
-
-// return (
-//     <Fragment>
-//         <NewExpense getExpenses={getExpensesHandler} />
-//         <div className='expenses-div'>
-//             {expenses && expenses.filter(expense => expense.date.includes('2023')).map(filteredExpense =>
-//                 <ul key={filteredExpense.id} className='expenses-list'>
-//                     <li>
-//                         <div className='expense-item'>
-//                             <div className="expense-date">
-//                                 <div className="expense-date_fullDate">{filteredExpense.date}</div>
-//                             </div>
-//                             <div className='expense-item__description'>
-//                                 <h2 className=''>{filteredExpense.title}</h2>
-//                                 <div className='expense-item__price'>{filteredExpense.price}₪
-//                                 </div>
-//                                 <button className='button' onClick={(e: any) => deleteExpense(filteredExpense.id)}>Delete</button>
-//                             </div>
-//                         </div>
-//                     </li>
-//                 </ul>
-//             )
-//             }
-//         </div >
-//     </Fragment>
-// )
-// }

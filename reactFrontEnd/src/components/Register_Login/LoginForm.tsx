@@ -35,14 +35,6 @@ const LoginForm = (props: Props) => {
         try {
             event.preventDefault()
 
-            //check the inputs 
-            if (
-                emailRef.current.value.trim().length === 0 ||
-                passwordRef.current.value.trim().length === 0) {
-                setMessageState({ title: "Invalid input", message: "Please enter valid inputs" })
-                return;
-            }
-
 
             //fetch from the server - check if the user exist in the DB (log-in)
             const response = await fetch("https://my-expenses-web-app.herokuapp.com/ExpenseApp/login/" + emailRef.current.value + "/" + passwordRef.current.value)
