@@ -1,6 +1,5 @@
 # My-Expenses
-Expenses system built with Java Spring + TypeScript & React <br/>
-Loved the backend & frontend sides
+Built with Java spring and ReactJS + Typescript Using SQL clearDB(from heroku) for Databse, Using firebase and heroku to deploy.
 
 Using clearDB for DataBase, Using firebase and heroku to deploy.
 
