@@ -1,12 +1,12 @@
-# My-Expenses
-Built with Java spring and ReactJS + Typescript Using SQL clearDB(from heroku) for Databse, Using firebase and heroku to deploy.
-
-Using clearDB (from heroku) for DataBase, Using firebase and heroku to deploy.
+# My-Expenses - Web Application
+Built with Java + spring framework and ReactJS + Typescript. <br/>
+Using mySQL clearDB(from heroku) Database. <br/>
+Using firebase and heroku to deploy. <br/>
 
 Simple expenses system + year filter to manage your expenses.
 ------------------
 
-To test the web-app: <br/>
+Test the web-app: <br/>
 https://doron-expenses.web.app/
 
 --------
