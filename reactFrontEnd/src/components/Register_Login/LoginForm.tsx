@@ -56,7 +56,7 @@ const LoginForm = (props: Props) => {
             setMessageState({ title: "User logged successfully!", message: "You have been logged in to Expense system!" })
 
             //print to console the userID
-            console.log("dispatch User ID " + idFromUserDB)
+            // console.log("dispatch User ID " + idFromUserDB)
 
             //conditional content
             setLoggedIn(true);

@@ -28,7 +28,7 @@ const Expenses: React.FC<Props> = () => {
             const data = await response1.json();
 
             //print to console for checking
-            console.log("Got Expenses: " + JSON.stringify(data))
+            // console.log("Got Expenses: " + JSON.stringify(data))
 
             //copying the data to reverse the expenses array (to show the newest expense)
             const dataCopy = await data.slice(0);
@@ -51,7 +51,7 @@ const Expenses: React.FC<Props> = () => {
                 headers: { "Content-Type": "application/json" },
             }
             const response = await fetch("https://my-expenses-web-app.herokuapp.com/ExpenseApp/deleteExpense/" + id, requestOptions)
-            console.log(response)
+            // console.log(response)
 
             //updating expenses list after deleting
             getExpensesHandler();
@@ -65,7 +65,7 @@ const Expenses: React.FC<Props> = () => {
     //expenses year filter
     const onYearSelect = (event) => {
         setYearSelect(event.target.value)
-        console.log(event.target.value)
+        // console.log(event.target.value)
     }
 
 
@@ -78,7 +78,7 @@ const Expenses: React.FC<Props> = () => {
 
     return (
         <Fragment>
-            
+
             <NewExpense getExpenses={getExpensesHandler} />
 
             {/* year filter selection */}

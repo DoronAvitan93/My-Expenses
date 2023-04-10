@@ -54,7 +54,7 @@ const RegisterForm = (props: Props) => {
 
             //fetch from the server - registering user to the DB
             const response = await fetch("https://my-expenses-web-app.herokuapp.com/ExpenseApp/addUser", requestOptions)
-            const responseFromDbAfterRegister = await response.text();
+            // const responseFromDbAfterRegister = await response.text();
 
 
             //if E-mail already exist
@@ -65,7 +65,7 @@ const RegisterForm = (props: Props) => {
             }
 
             //response from controller with details if OK
-            console.log(responseFromDbAfterRegister)
+            // console.log(responseFromDbAfterRegister)
 
             //using the error modal also as success registering message
             setMessageState({ title: "User register successfully!", message: "You have been registered to Expense system!" })

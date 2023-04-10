@@ -50,7 +50,7 @@ const ExpenseForm = (props: Props) => {
         }
 
         //print to console the data
-        console.log("Sending: " + JSON.stringify(dataToSend))
+        // console.log("Sending: " + JSON.stringify(dataToSend))
 
 
         const requestOptions =
@@ -63,8 +63,8 @@ const ExpenseForm = (props: Props) => {
         // console.log(JSON.stringify(dataToSend))
         const response = await fetch("https://my-expenses-web-app.herokuapp.com/ExpenseApp/addExpense", requestOptions)
 
-        const responseFromDB = await response.text();
-        console.log(responseFromDB)
+        // const responseFromDB = await response.text();
+        // console.log(responseFromDB)
 
         //restart values
         titleRef.current.value = '';
