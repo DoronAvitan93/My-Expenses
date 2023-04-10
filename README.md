@@ -1,7 +1,7 @@
 # My-Expenses - Web Application
-Built with Java + spring framework and ReactJS + Typescript.
-Using mySQL clearDB(from heroku) Database.
-Using firebase and heroku to deploy.
+Built with Java + spring framework and ReactJS + Typescript. <br/>
+Using mySQL clearDB(from heroku) Database. <br/>
+Using firebase and heroku to deploy. <br/>
 
 Simple expenses system + year filter to manage your expenses.
 ------------------
